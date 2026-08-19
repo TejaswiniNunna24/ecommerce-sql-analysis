@@ -163,15 +163,37 @@ ECommerce-SQL-Analysis/
 
 ## 📸 Project Screenshots
 
-![Data Cleaning](./Screenshots/2.database_cleaning.png)
-![Total Revenue](./Screenshots/3.total_revenue.png)
-![Category Revenue](./Screenshots/4.category_revenue.png)
-![Top Products](./Screenshots/5.top_products.png)
-![Top Customers](./Screenshots/6.top_customers.png)
-![Monthly Revenue](./Screenshots/7.monthly_revenue.png)
-![Customer Segmentation](./Screenshots/8.customer_segmentation.png)
-![Customer Ranking](./Screenshots/9.customer_ranking.png)
-![Monthly Growth Percentage](./Screenshots/10.monthly_growth_percentage.png)
+## 📸 Project Screenshots
+
+### 1. Database Tables
+![Database Tables](Screenshots/1.database_tables.png)
+
+### 2. Data Cleaning
+![Data Cleaning](Screenshots/2.database_cleaning.png)
+
+### 3. Total Revenue
+![Total Revenue](Screenshots/3.total_revenue.png)
+
+### 4. Category Revenue
+![Category Revenue](Screenshots/4.category_revenue.png)
+
+### 5. Top Products
+![Top Products](Screenshots/5.top_products.png)
+
+### 6. Top Customers
+![Top Customers](Screenshots/6.top_customers.png)
+
+### 7. Monthly Revenue
+![Monthly Revenue](Screenshots/7.monthly_revenue.png)
+
+### 8. Customer Segmentation
+![Customer Segmentation](Screenshots/8.customer_segmentation.png)
+
+### 9. Customer Ranking
+![Customer Ranking](Screenshots/9.customer_ranking.png)
+
+### 10. Monthly Growth Percentage
+![Monthly Growth Percentage](Screenshots/10.monthly_growth_percentage.png)
 
 ## 📌 Key Takeaways
 
