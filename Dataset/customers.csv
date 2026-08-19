@@ -1,0 +1,101 @@
+customer_id,customer_name,gender,city,state,signup_date
+1,Ravi 1,Male,Hyderabad,Telangana,2025-03-11
+2,Priya 2,Male,Bengaluru,Karnataka,2024-09-27
+3,Arjun 3,Male,Chennai,Tamil Nadu,2024-03-12
+4,Sneha 4,Male,Pune,Maharashtra,2024-01-21
+5,Kiran 5,Male,Mumbai,Maharashtra,2024-05-01
+6,Anjali 6,Male,Delhi,Delhi,2024-08-02
+7,Vikram 7,Male,Kolkata,West Bengal,2025-04-03
+8,Meena 8,Female,Ahmedabad,Gujarat,2025-01-07
+9,Rahul 9,Female,Jaipur,Rajasthan,2024-12-25
+10,Suresh 10,Female,Kochi,Kerala,2024-05-10
+11,Kavya 11,Female,Hyderabad,Telangana,2024-11-04
+12,Neha 12,Female,Bengaluru,Karnataka,2024-12-09
+13,Rohan 13,Female,Chennai,Tamil Nadu,2025-02-17
+14,Pooja 14,Female,Pune,Maharashtra,2025-01-20
+15,Amit 15,Female,Mumbai,Maharashtra,2025-03-19
+16,Divya 16,Male,Delhi,Delhi,2024-06-09
+17,Nikhil 17,Female,Kolkata,West Bengal,2024-11-09
+18,Swathi 18,Female,Ahmedabad,Gujarat,2024-09-09
+19,Varun 19,Female,Jaipur,Rajasthan,2024-12-10
+20,Aishwarya 20,Male,Kochi,Kerala,2025-04-19
+21,Ravi 21,Male,Hyderabad,Telangana,2024-06-18
+22,Priya 22,Female,Bengaluru,Karnataka,2025-04-20
+23,Arjun 23,Female,Chennai,Tamil Nadu,2025-04-08
+24,Sneha 24,Male,Pune,Maharashtra,2024-07-08
+25,Kiran 25,Female,Mumbai,Maharashtra,2024-06-23
+26,Anjali 26,Female,Delhi,Delhi,2024-02-20
+27,Vikram 27,Female,Kolkata,West Bengal,2024-02-24
+28,Meena 28,Female,Ahmedabad,Gujarat,2024-11-15
+29,Rahul 29,Male,Jaipur,Rajasthan,2024-05-10
+30,Suresh 30,Male,Kochi,Kerala,2024-11-02
+31,Kavya 31,Male,Hyderabad,Telangana,2024-01-21
+32,Neha 32,Male,Bengaluru,Karnataka,2024-06-15
+33,Rohan 33,Female,Chennai,Tamil Nadu,2025-01-22
+34,Pooja 34,Male,Pune,Maharashtra,2024-11-11
+35,Amit 35,Female,Mumbai,Maharashtra,2024-08-29
+36,Divya 36,Female,Delhi,Delhi,2024-09-21
+37,Nikhil 37,Female,Kolkata,West Bengal,2024-02-22
+38,Swathi 38,Female,Ahmedabad,Gujarat,2024-12-05
+39,Varun 39,Female,Jaipur,Rajasthan,2025-01-01
+40,Aishwarya 40,Female,Kochi,Kerala,2025-03-30
+41,Ravi 41,Female,Hyderabad,Telangana,2024-09-20
+42,Priya 42,Male,Bengaluru,Karnataka,2024-02-04
+43,Arjun 43,Female,Chennai,Tamil Nadu,2024-03-21
+44,Sneha 44,Female,Pune,Maharashtra,2024-02-19
+45,Kiran 45,Female,Mumbai,Maharashtra,2025-01-22
+46,Anjali 46,Female,Delhi,Delhi,2025-01-24
+47,Vikram 47,Female,Kolkata,West Bengal,2024-04-15
+48,Meena 48,Female,Ahmedabad,Gujarat,2024-11-05
+49,Rahul 49,Male,Jaipur,Rajasthan,2024-07-09
+50,Suresh 50,Female,Kochi,Kerala,2024-08-05
+51,Kavya 51,Female,Hyderabad,Telangana,2024-06-10
+52,Neha 52,Female,Bengaluru,Karnataka,2025-03-21
+53,Rohan 53,Female,Chennai,Tamil Nadu,2024-09-26
+54,Pooja 54,Male,Pune,Maharashtra,2024-10-30
+55,Amit 55,Male,Mumbai,Maharashtra,2025-03-31
+56,Divya 56,Female,Delhi,Delhi,2024-08-02
+57,Nikhil 57,Female,Kolkata,West Bengal,2024-07-08
+58,Swathi 58,Female,Ahmedabad,Gujarat,2024-07-31
+59,Varun 59,Female,Jaipur,Rajasthan,2024-08-24
+60,Aishwarya 60,Female,Kochi,Kerala,2025-01-01
+61,Ravi 61,Male,Hyderabad,Telangana,2024-10-06
+62,Priya 62,Female,Bengaluru,Karnataka,2024-08-04
+63,Arjun 63,Female,Chennai,Tamil Nadu,2024-07-06
+64,Sneha 64,Female,Pune,Maharashtra,2025-05-07
+65,Kiran 65,Male,Mumbai,Maharashtra,2024-06-05
+66,Anjali 66,Male,Delhi,Delhi,2024-10-27
+67,Vikram 67,Male,Kolkata,West Bengal,2024-12-10
+68,Meena 68,Male,Ahmedabad,Gujarat,2024-01-09
+69,Rahul 69,Female,Jaipur,Rajasthan,2024-05-08
+70,Suresh 70,Female,Kochi,Kerala,2024-05-15
+71,Kavya 71,Female,Hyderabad,Telangana,2024-03-03
+72,Neha 72,Male,Bengaluru,Karnataka,2025-05-13
+73,Rohan 73,Male,Chennai,Tamil Nadu,2025-01-26
+74,Pooja 74,Male,Pune,Maharashtra,2025-02-22
+75,Amit 75,Male,Mumbai,Maharashtra,2025-01-13
+76,Divya 76,Male,Delhi,Delhi,2025-05-04
+77,Nikhil 77,Male,Kolkata,West Bengal,2024-02-10
+78,Swathi 78,Female,Ahmedabad,Gujarat,2024-05-14
+79,Varun 79,Male,Jaipur,Rajasthan,2024-11-23
+80,Aishwarya 80,Female,Kochi,Kerala,2025-02-21
+81,Ravi 81,Male,Hyderabad,Telangana,2024-02-17
+82,Priya 82,Male,Bengaluru,Karnataka,2025-02-10
+83,Arjun 83,Female,Chennai,Tamil Nadu,2024-08-03
+84,Sneha 84,Male,Pune,Maharashtra,2024-04-08
+85,Kiran 85,Female,Mumbai,Maharashtra,2024-12-25
+86,Anjali 86,Female,Delhi,Delhi,2025-04-19
+87,Vikram 87,Male,Kolkata,West Bengal,2025-03-24
+88,Meena 88,Male,Ahmedabad,Gujarat,2024-04-10
+89,Rahul 89,Male,Jaipur,Rajasthan,2025-04-06
+90,Suresh 90,Male,Kochi,Kerala,2024-09-13
+91,Kavya 91,Male,Hyderabad,Telangana,2024-08-05
+92,Neha 92,Male,Bengaluru,Karnataka,2024-09-11
+93,Rohan 93,Female,Chennai,Tamil Nadu,2024-12-24
+94,Pooja 94,Male,Pune,Maharashtra,2025-01-27
+95,Amit 95,Male,Mumbai,Maharashtra,2024-01-15
+96,Divya 96,Female,Delhi,Delhi,2024-02-11
+97,Nikhil 97,Female,Kolkata,West Bengal,2025-04-05
+98,Swathi 98,Male,Ahmedabad,Gujarat,2024-03-03
+99,Varun 99,Female,Jaipur,Rajasthan,2024-08-18
+100,Aishwarya 100,Male,Kochi,Kerala,2024-02-21

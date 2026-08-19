@@ -1,0 +1,31 @@
+product_id,product_name,category,price
+1,Laptop Pro 14,Electronics,65000
+2,Laptop Air 13,Electronics,52000
+3,Smartphone X,Electronics,32000
+4,Smartphone Y,Electronics,22000
+5,Wireless Earbuds,Electronics,3500
+6,Bluetooth Speaker,Electronics,4500
+7,Smart Watch,Electronics,7000
+8,Power Bank,Electronics,1800
+9,Mechanical Keyboard,Electronics,5500
+10,Wireless Mouse,Electronics,1500
+11,Cotton T-Shirt,Clothing,799
+12,Denim Jeans,Clothing,1999
+13,Formal Shirt,Clothing,1499
+14,Hoodie,Clothing,1799
+15,Running Shoes,Clothing,2999
+16,Casual Shoes,Clothing,2499
+17,Backpack,Clothing,1299
+18,Sunglasses,Clothing,999
+19,Bedsheet Set,Home,1599
+20,Table Lamp,Home,1299
+21,Wall Clock,Home,899
+22,Coffee Maker,Home,4999
+23,Water Bottle,Home,699
+24,Cushion Set,Home,999
+25,Cookware Set,Home,3999
+26,Python Programming,Books,799
+27,SQL for Beginners,Books,699
+28,Data Analytics Guide,Books,899
+29,Business Statistics,Books,599
+30,Power BI Mastery,Books,999
