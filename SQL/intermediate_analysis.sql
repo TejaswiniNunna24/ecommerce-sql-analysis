@@ -3,7 +3,7 @@ use ecommerce_analysis;
 -- 1. average order value
 
 select
-    avg(order_total) as average_order_value
+    round(avg(order_total), 2) as average_order_value
 from (
     select
         order_id,
@@ -75,16 +75,18 @@ with product_sales as (
     group by p.product_id, p.product_name, p.category
 ),
 ranked_products as (
-    select *,
-           dense_rank() over (
-               partition by category
-               order by total_quantity desc
-           ) as product_rank
+    select
+        *,
+        dense_rank() over (
+            partition by category
+            order by total_quantity desc
+        ) as product_rank
     from product_sales
 )
 select *
 from ranked_products
-where product_rank <= 3;
+where product_rank <= 3
+order by category, product_rank;
 
 
 -- 5. purchase frequency of customers
@@ -152,7 +154,8 @@ having count(o.order_id) = 1;
 
 -- 9. products that have never been ordered
 
-select p.*
+select
+    p.*
 from products p
 left join order_items oi
 on p.product_id = oi.product_id
@@ -176,7 +179,7 @@ order by total_revenue desc;
 -- 11. average spending by customer
 
 select
-    avg(total_spending) as average_customer_spending
+    round(avg(total_spending), 2) as average_customer_spending
 from (
     select
         o.customer_id,
@@ -222,11 +225,12 @@ select
     c.customer_name,
     max(o.order_date) as last_order_date
 from customers c
-join orders o
+left join orders o
 on c.customer_id = o.customer_id
 group by c.customer_id, c.customer_name
-having datediff(
-    (select max(order_date) from orders),
-    max(o.order_date)
-) > 90
+having max(o.order_date) is null
+    or datediff(
+        (select max(order_date) from orders),
+        max(o.order_date)
+    ) > 90
 order by last_order_date;
