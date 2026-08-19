@@ -32,13 +32,15 @@ from order_items;
 
 -- 6. average product price
 
-select avg(price) as average_product_price
+select round(avg(price), 2) as average_product_price
 from products;
 
 
 -- 7. orders by status
 
-select order_status, count(*) as order_count
+select
+    order_status,
+    count(*) as order_count
 from orders
 group by order_status
 order by order_count desc;
@@ -46,7 +48,9 @@ order by order_count desc;
 
 -- 8. customers by gender
 
-select gender, count(*) as customer_count
+select
+    gender,
+    count(*) as customer_count
 from customers
 group by gender
 order by customer_count desc;
@@ -54,7 +58,9 @@ order by customer_count desc;
 
 -- 9. products by category
 
-select category, count(*) as product_count
+select
+    category,
+    count(*) as product_count
 from products
 group by category
 order by product_count desc;
