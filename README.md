@@ -165,7 +165,7 @@ ECommerce-SQL-Analysis/
 
 ### 1. Database Tables
 
-![Database Tables](Screenshots/1.database_tables.png)
+![Database Tables](./Screenshots/1.database_tables.png)
 
 ### 2. Data Cleaning
 
