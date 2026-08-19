@@ -92,10 +92,10 @@ The following data-quality checks were performed:
 
 ### Advanced Analysis
 
-- Customer ranking using `rank()`
-- Product ranking using `dense_rank()`
+- Customer ranking using `RANK()`
+- Product ranking using `DENSE_RANK()`
 - Running monthly revenue
-- Month-over-month revenue growth using `lag()`
+- Month-over-month revenue growth using `LAG()`
 - Highest-spending customer in each state
 - Category revenue percentage
 - Customers above average spending
@@ -126,6 +126,19 @@ The following data-quality checks were performed:
 - **UPI Transactions:** 110
 - **Inactive Customers:** 44
 - **Inactive Products:** 0
+
+## 💼 Business Recommendations
+
+- Focus marketing efforts on high-performing categories such as Electronics.
+- Promote top-selling products through targeted offers and discounts.
+- Use loyalty programs and personalized offers to increase repeat purchases.
+- Re-engage inactive customers through targeted email and promotional campaigns.
+- Analyze cancelled and returned orders to identify operational issues.
+- Promote convenient payment methods such as UPI.
+- Monitor monthly revenue trends to improve sales and inventory planning.
+- Provide rewards and exclusive offers to high-value customers.
+- Review low-performing products to improve product strategy.
+- Focus regional marketing efforts on high-revenue states such as Maharashtra.
 
 ## 📁 Project Structure
 
@@ -159,72 +172,3 @@ ECommerce-SQL-Analysis/
 │   └── 10.monthly_growth_percentage.png
 │
 └── README.md
-```
-
-## 📸 Project Screenshots
-
-## 📸 Project Screenshots
-
-### 1. Database Tables
-
-![Database Tables](Screenshots/1.database_tables.png)
-
-### 2. Data Cleaning
-
-![Data Cleaning](Screenshots/2.database_cleaning.png)
-
-### 3. Total Revenue
-
-![Total Revenue](Screenshots/3.total_revenue.png)
-
-### 4. Category Revenue
-
-![Category Revenue](Screenshots/4.category_revenue.png)
-
-### 5. Top Products
-
-![Top Products](Screenshots/5.top_products.png)
-
-### 6. Top Customers
-
-![Top Customers](Screenshots/6.top_customers.png)
-
-### 7. Monthly Revenue
-
-![Monthly Revenue](Screenshots/7.monthly_revenue.png)
-
-### 8. Customer Segmentation
-
-![Customer Segmentation](Screenshots/8.customer_segmentation.png)
-
-### 9. Customer Ranking
-
-![Customer Ranking](Screenshots/9.customer_ranking.png)
-
-### 10. Monthly Growth Percentage
-
-![Monthly Growth Percentage](Screenshots/10.monthly_growth_percentage.png)
-
-## 📌 Key Takeaways
-
-- Electronics generated the highest revenue among all categories.
-- A small group of customers contributed significantly to overall revenue.
-- Repeat customers represent an important customer segment.
-- Monthly revenue analysis helps identify sales trends and growth patterns.
-- Customer segmentation can help businesses design targeted marketing strategies.
-- Payment and order-status analysis provides insights into transaction performance.
-- SQL window functions were used to perform advanced ranking and growth analysis.
-
-## 🚀 Conclusion
-
-This project demonstrates the use of MySQL and SQL for end-to-end e-commerce data analysis.
-
-It covers data cleaning, relational data analysis, aggregations, joins, subqueries, CTEs, window functions, ranking, customer segmentation, revenue analysis, and business insights.
-
-The analysis helps transform raw e-commerce data into meaningful insights that can support business decision-making.
-
-## 👩‍💻 Author
-
-**Tejaswini Nunna**
-
-Aspiring Data Analyst
