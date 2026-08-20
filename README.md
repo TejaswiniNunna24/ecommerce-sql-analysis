@@ -143,7 +143,7 @@ The following data-quality checks were performed:
 ## 📁 Project Structure
 
 ```text
-ECommerce-SQL-Analysis/
+ecommerce-sql-analysis/
 │
 ├── Dataset/
 │   ├── customers.csv
